@@ -1,4 +1,6 @@
 import React from 'react'
+import { Slide } from 'react-slideshow-image'
+import Slideshow from '../components/Slidershow'
 
 
 const Home = () => {
@@ -6,6 +8,7 @@ const Home = () => {
 
     <>
       <div>
+        <Slideshow/>
 
         <div id='content' className='m-2.5 text-center  '>
           <div id='heading' className='text-3xl'>

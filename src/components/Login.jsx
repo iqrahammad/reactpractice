@@ -3,18 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Login = () => {
     return (
-        <div className='flex min-h-screen'>
-            {/* Left Side - Image */}
-            <div className='w-1/2'>
-                <img 
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZfoXiFyx-AeYyo6r7W8yFCphGqYpRF97w&s" 
-                    alt="Login Illustration"
-                    className='w-full h-full object-cover'
-                />
-            </div>
-
-            {/* Right Side - Form */}
-            <div className='w-1/2 bg-amber-600 flex items-center justify-center'>
+        <div className='flex justify-center m-10'>
+          
+            <div className='w-[40%] bg-amber-600 flex items-center justify-center'>
                 <div className='w-full max-w-md p-10'>
                     <h1 className='text-4xl font-bold text-amber-100 text-center mb-6'>
                         Login Form
@@ -35,7 +26,7 @@ const Login = () => {
                             <input 
                                 type="password" 
                                 placeholder='Enter your password'
-                                className='w-full p-2 rounded border border-gray-300'
+                                className='w-full hover:bg-amber-50 p-2 rounded border border-gray-300'
                             />
                         </div>
 
@@ -44,7 +35,7 @@ const Login = () => {
                             <Link to="/register" className='text-blue-300 underline'>Register</Link>
                         </p>
 
-                        <button className='bg-white text-amber-700 font-bold py-2 rounded hover:bg-gray-200'>
+                        <button className='bg-white hover:bg-amber-200 text-amber-700 font-bold py-2 rounded'>
                             Login
                         </button>
                     </form>

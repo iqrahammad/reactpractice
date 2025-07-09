@@ -3,19 +3,11 @@ import { Link } from 'react-router-dom'
 
 const Register = () => {
     return (
-        <div className="flex flex-row md:flex-row min-h-screen">
-            
-            {/* Left Side - Image */}
-            <div className="flex  justify-center min-h-screen w-full md:w-1/2 bg-white">
-                <img 
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6P1OAQCjARguTqT2BuCtT-JC-2PUfm7PjrA&s" 
-                    alt="Register Now" 
-                    className="w-full h-full object-cover"
-                />
-            </div>
+        <div className= 'flex justify-center m-10'>
 
             
-            <div className="w-full md:w-1/2 bg-amber-300 flex items-center justify-center">
+            <div className=" md:w-[40%] bg-amber-300 flex items-center justify-center ">
+
                 <div className="w-full max-w-md p-8">
                     <h1 className="text-4xl font-bold text-center mb-6 text-amber-700">Register Form</h1>
 
